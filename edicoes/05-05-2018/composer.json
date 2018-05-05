@@ -1,0 +1,15 @@
+{
+  "name": "TutorialComposer",
+  "description": "A simple tutorial on how to use composer",
+  "require-dev": {
+    "codeception/codeception": "*"
+  },
+  "require": {
+    "guzzlehttp/guzzle": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
